@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+    <button bindtap="connect">建立连接</button>  
+    <view>
+      <view class='{{falg.aa}}'>aa:{{stack.aa}}</view>
+      <view class='{{falg.bb}}'>bb:{{stack.bb}}</view>
+      <view class='{{falg.cc}}'>cc:{{stack.cc}}</view>
+    </view>
+</view>
